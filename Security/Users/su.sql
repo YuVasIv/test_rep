@@ -1,0 +1,3 @@
+﻿CREATE USER [su]
+  WITHOUT LOGIN
+GO
