@@ -2,7 +2,7 @@
   [DepartmentID] [smallint] IDENTITY,
   [Name] [dbo].[Name] NOT NULL,
   [GroupName] [dbo].[Name] NOT NULL,
-  [ModifiedDate] [datetime] NOT NULL CONSTRAINT [DF_Department_ModifiedDate] DEFAULT (getdate()),
+  [ModifiedDate] [datetime2] NOT NULL CONSTRAINT [DF_Department_ModifiedDate] DEFAULT (getdate()),
   CONSTRAINT [PK_Department_DepartmentID] PRIMARY KEY CLUSTERED ([DepartmentID])
 )
 ON [PRIMARY]
