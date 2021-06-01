@@ -3,5 +3,14 @@
   <Version>2</Version>
   <StaticDataLinks>
     <StaticDataLink>dbo.AWBuildVersion</StaticDataLink>
+    <StaticDataLink>Production.Brand</StaticDataLink>
+    <StaticDataLink>Production.Category</StaticDataLink>
+    <StaticDataLink>Production.Product</StaticDataLink>
+    <StaticDataLink>Production.Stock</StaticDataLink>
+    <StaticDataLink>Sales.[Order]</StaticDataLink>
+    <StaticDataLink>Sales.Customer</StaticDataLink>
+    <StaticDataLink>Sales.OrderItem</StaticDataLink>
+    <StaticDataLink>Sales.Staff</StaticDataLink>
+    <StaticDataLink>Sales.Store</StaticDataLink>
   </StaticDataLinks>
 </StaticDataList>
